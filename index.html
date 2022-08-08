@@ -7,8 +7,10 @@
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
       <link rel="stylesheet" href="fonts/icomoon/style.css">
       <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/custom.css">
       <!-- Style -->
       <link rel="stylesheet" href="css/style.css">
       <title>Website Menu #6</title>
@@ -37,6 +39,9 @@
          .how-img img{
          width: 100%;
          }
+         .side_image{
+
+         }
       </style>
    </head>
    <body>
@@ -63,7 +68,7 @@
                       <ul class="site-menu main-menu js-clone-nav ml-auto panel-collapse collapse" style="margin-top: 50px;">
                           <li class="active"><a href="index.html" class="nav-link">Home</a></li>
                           <li><a href="about.html" class="nav-link">About</a></li>
-                          <li><a href="services.html" class="nav-link">Services</a></li>
+                          <li><a class="nav-link" href="#" onclick="sareeList()">Services</a></li>
                           <li><a href="blog.html" class="nav-link">Blog</a></li>
                           <li><a href="contact.html" class="nav-link">Contact</a></li>
                       </ul>
@@ -100,7 +105,7 @@
          </a>
       </div>
       <!-- <div class="hero" style="background-image: url('https://cdn.shopify.com/s/files/1/1491/9368/files/WS_Figured_Silk_0407_2022_DT_SS_1_400x.jpg?v=1656831750 400w');"></div> -->
-      <div style="margin: 50px;">
+      <div style="margin: 50px;" id="index_header">
          <div class="Container">
             <header class="SectionHeader SectionHeader--center text-center">
                <h2 class="SectionHeader__Heading Heading u-h1">WELCOME TO</h2>
@@ -112,8 +117,8 @@
       </div>
       </section>
       <!-- how-img -->
-      <hr style="width:100%;text-align:left;margin-left:0;margin-bottom: 0px;height: 1px;background-color: #3931af;">
-      <div class="how-section1">
+      <hr style="width:100%;text-align:left;margin-left:0;margin-bottom: 0px;height: 1px;background-color: #3931af;" id="hr_section">
+      <div class="how-section1" id="saree_list_section">
          <div class="row text-center">
             <div class="col-md-6" style="padding-right: 0px !important;">
                <img data-enlargeable src="https://cdn.shopify.com/s/files/1/1491/9368/files/WS_Figured_Silk_0407_2022_COLL_400x.jpg?v=1656831988 400w" alt="" width="100%" class="demo"/>
@@ -168,7 +173,7 @@
          </div>
       </div>
       <hr style="width:100%;text-align:left;margin-left:0;margin-top: 0px;height: 1px;background-color: #3931af;">
-      <div style="margin: 50px;">
+      <div style="margin: 50px;" id="above_footer">
          <div class="Container">
             <header class="SectionHeader SectionHeader--center text-center">
                <h2 class="SectionHeader__Heading Heading u-h1">WELCOME TO</h2>
@@ -179,13 +184,222 @@
          </div>
       </div>
       </div>
+
+
+      <!--Card VIew-->
+
+       <section class="cards-wrapper d-none" id="card_list_sarees">
+         <div class="card-grid-space">
+           <div class="num">Lorum Ipsum</div>
+           <a class="card" href="https://codetheweb.blog/2017/10/06/html-syntax/" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
+             <div>
+               <h1>HTML Syntax</h1>
+               <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+               <!--<div class="date">6 Oct 2017</div>-->
+               <div class="tags">
+                 <div class="tag">HTML</div>
+               </div>
+             </div>
+           </a>
+         </div>
+         <div class="card-grid-space">
+           <div class="num">Lorum Ipsum</div>
+           <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
+             <div>
+               <h1>Basic types of HTML tags</h1>
+               <p>Learn about some of the most common HTML tags…</p>
+               <!--<div class="date">9 Oct 2017</div>-->
+               <div class="tags">
+                 <div class="tag">HTML</div>
+               </div>
+             </div>
+           </a>
+         </div>
+         <div class="card-grid-space">
+           <div class="num">Lorum Ipsum</div>
+           <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+             <div>
+               <h1>Links, images and about file paths</h1>
+               <p>Learn how to use links and images along with file paths…</p>
+               <!--<div class="date">14 Oct 2017</div>-->
+               <div class="tags">
+                 <div class="tag">HTML</div>
+               </div>
+             </div>
+           </a>
+         </div>
+
+         <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-grid-space">
+            <div class="num">Lorum Ipsum</div>
+            <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+              <div>
+                <h1>Links, images and about file paths</h1>
+                <p>Learn how to use links and images along with file paths…</p>
+                <!--<div class="date">14 Oct 2017</div>-->
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                </div>
+              </div>
+            </a>
+          </div>
+         <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
+       </section>
+
+
+
+       <!--product detail view-->
+
+       
+
+
       <footer style="height: 200px;background-color: #000;">
       </footer>
-      <script src="http://vinothkumarandroid.github.io/js/jquery-3.3.1.min.js"></script>
-      <script src="http://vinothkumarandroid.github.io/js/popper.min.js"></script>
-      <script src="http://vinothkumarandroid.github.io/js/bootstrap.min.js"></script>
-      <script src="http://vinothkumarandroid.github.io/js/jquery.sticky.js"></script>
-      <script src="http://vinothkumarandroid.github.io/js/main.js"></script>
-      <script src="http://vinothkumarandroid.github.io/js/intense.js"></script>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/intense.js"></script>
    </body>
 </html>
